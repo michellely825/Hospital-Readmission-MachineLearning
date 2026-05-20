@@ -24,12 +24,12 @@ A machine learning extension of the Hospital Readmissions system that predicts t
 
 ## Project Workflow
 
-1. **Exploratory Data Analysis** — investigated distributions, readmission rates, and relationships between features
-2. **Preprocessing** — encoded categorical and binary variables, prepared data for modeling
-3. **Train/Test Split** — 80/20 stratified split to preserve the 53/47 readmission balance
-4. **Modeling** — trained and compared logistic regression and random forest models
+1. **Exploratory Data Analysis** - investigated distributions, readmission rates, and relationships between features
+2. **Preprocessing** - encoded categorical and binary variables, prepared data for modeling
+3. **Train/Test Split** - 80/20 stratified split to preserve the 53/47 readmission balance
+4. **Modeling** - trained and compared logistic regression and random forest models
 5. **Evaluation** — assessed performance using accuracy, classification report, ROC-AUC, and confusion matrix
-6. **Single Patient Prediction** — model outputs readmission probability for an individual patient
+6. **Single Patient Prediction** - model outputs readmission probability for an individual patient
 
 ## Results
 
@@ -43,6 +43,6 @@ The tuned random forest was the best performing model. The default random forest
 
 ## Limitations & Next Steps
 
-- ROC-AUC of 0.66 indicates moderate predictive ability — there is room for improvement
+- ROC-AUC of 0.66 indicates moderate predictive ability so there is room for improvement
 - The model misses a significant portion of at-risk patients (low recall for readmitted class)
 - Future improvements could include more feature engineering, XGBoost, or SHAP explainability to interpret predictions for clinicians
