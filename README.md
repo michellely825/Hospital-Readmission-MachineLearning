@@ -2,7 +2,7 @@
 
 ## Overview
 
-After building a REST API and React dashboard to explore historical hospital readmission data, I wanted to take it a step further and extend it from "here's what happened" to "here's what's likely to happen". This machine learning extension predicts the likelihood of patient readmission using ten years of diabetic patient data across 130 US hospitals (1999-2008), given a patient's clinical profile. The model can predict readmission probability for an individual patient given their clinical features.
+After building a REST API and React dashboard to explore historical hospital readmission data, I wanted to take it a step further and extend it from "here's what happened" to "here's what's likely to happen". This machine learning extension predicts the likelihood of patient readmission using ten years of diabetic patient data across 130 US hospitals (1999-2008), given a patient's clinical profile.
 
 ## Related Projects
 
